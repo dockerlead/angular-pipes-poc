@@ -9,7 +9,10 @@
       <button
         class="btn btn-primary"
         (click)="onAddServer()"
+        style="margin-top: 10px;"
       >Add Server</button>
+      <br>
+      <h2>App Status: {{ appStatus | async}}</h2>
       <hr>
       <ul class="list-group">
         <li
